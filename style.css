@@ -1,0 +1,83 @@
+/*font-family: 'Outfit', sans-serif;
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/* Reset settings */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  
+/* End reset settings */
+
+
+body {
+    background-color:hsl(212, 45%, 89%);
+    font-family: Outfit, sans serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    width: 400px;
+    padding: 1em;
+    border-radius: 1.2em;
+    margin: 1em;
+}
+
+.card h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.card p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding-bottom: 1.5em;
+    margin: auto;
+    width: 300px;
+}
+
+.card a {
+    color: hsl(218, 44%, 22%);
+}
+
+.card img {
+    border-radius: 1.2em;
+}
+
+body footer {
+    padding-top: 20px;
+}
